@@ -1,10 +1,6 @@
-alert('Привет');
-alert('Мир');
-let message = 'Hello!'; // определяем переменную и присваиваем ей значение
-
-alert(message); // Hello!
-<body >
-<script language="JavaScript">
- alert ("Привет, мир!");
-</script>
-</body>
+let userName = 'Аlena';
+function greeting() {
+ let message = 'Привет, ' + userName;
+ alert(message);
+}
+greeting(); 
